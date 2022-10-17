@@ -1,7 +1,7 @@
 html, body {
   height: 100%;
   margin: 0;
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 400;
   color: var(--main-brown);
   scroll-behavior: smooth;
@@ -599,6 +599,7 @@ section, header {
 
 }
 .price__body {
+  text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -606,9 +607,14 @@ section, header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  max-width: 60%;
+  margin: 0 auto;
+  border: 1px solid var(--main-green);
+  gap: 15px;
+  padding: 15px;
 }
+
 .price__list {
-  text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -871,6 +877,10 @@ section, header {
 
   .problems__block {
     background-attachment: initial;
+  }
+
+  .price__body {
+    max-width: 100%;
   }
 
 }
