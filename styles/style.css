@@ -194,7 +194,12 @@ section, header {
       -ms-flex-align: center;
           align-items: center;
   margin: 0 auto;
+}
 
+.header__body-txt {
+  max-width: 360px;
+  text-align: center;
+  font-weight: 400;
 }
 
 .header__body-img {
@@ -280,7 +285,7 @@ section, header {
 
 .pros__card {
   width: 260px;
-  height: 240px;
+  height: 200px;
   border-top: 2px solid var(--main-beige);
   border-bottom: 2px solid transparent;
   border-left: 2px solid transparent;
@@ -441,6 +446,7 @@ section, header {
 
 .step__num {
   font-size: 2rem;
+  height: 3rem;
   color: var(--main-green);
 }
 
