@@ -591,6 +591,7 @@ section, header {
 
 .education__info-item {
   list-style: disc;
+  list-style-position: inside;
   margin: 10px 0;
 }
 
@@ -769,18 +770,20 @@ section, header {
   position: relative;
 }
 
-.contact__txt {
-  text-align: center;
-  font-size: 2rem;
+.contact__text {
+  font-size: 1.7rem;
+  margin-top: 16px;
+}
+
+.social__link {
+  text-decoration: underline;
+  display: inline;
 }
 
 .contact__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -788,7 +791,6 @@ section, header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 20px;
 }
 
 .contact__social {
@@ -816,11 +818,8 @@ section, header {
 }
 
 .contact__agreement {
-  text-align: center;
-}
-
-.contact__agreement-txt {
-  font-size: 2rem;
+  font-size: 1.3rem;
+  margin-top: 16px;
 }
 
 .contact__agreement-link {
@@ -1078,8 +1077,8 @@ section, header {
     max-height: 100%;
     border-radius: 0;
   }
+
   .contact__content {
-    gap: 40px;
   }
 
   .main__block-txt {
