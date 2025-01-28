@@ -401,6 +401,16 @@ section, header {
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
+.problems__block-remark {
+  margin-top: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 /* Steps */
 
 .steps {
